@@ -8,7 +8,7 @@ const newPost = require( './newPost' )
 
 const post_o =
 {
-  id:        `titre`,          // : lowercase-title
+  id:        `title`,          // : lowercase-title
   layout:    `post`,           // : post
   plink:     `posts`,          // : posts || tech || site
   tags:      `post`,           // : post  || tech || site
