@@ -2,7 +2,7 @@
 /**
  * Markdown prototype file to create a new post
  * This file is first duplicated and
- * _PLACE_HOLDERS_ are then replaced by the new post JS function
+ * _PLACE_HOLDERS_ are then replaced by the createPost JS function
  */
 {
   layout:    `layouts/_LAYOUT_/item.njk`,
