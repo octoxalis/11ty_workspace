@@ -1,0 +1,324 @@
+.
+├── content
+│   ├── _includes_
+│   │   ├── scripts
+│   │   │   ├── _main_js_.njk
+│   │   │   ├── _media_js_.njk
+│   │   │   └── _script_load_js_.njk
+│   │   └── styles
+│   │       ├── _main_css_.njk
+│   │       └── _media_css_.njk
+│   ├── artists
+│   │   ├── items
+│   │   │   ├── 1488_vecelli.md
+│   │   │   ├── 1571_merisi.md
+│   │   │   ├── 1594_poussin.md
+│   │   │   ├── 1697_canal.md
+│   │   │   └── 1703_boucher.md
+│   │   └── list.md
+│   ├── biblio
+│   │   ├── items
+│   │   │   ├── 2007_rosenberg.md
+│   │   │   └── 2017_scaletti_caravaggio.md
+│   │   └── list.md
+│   ├── collectors
+│   │   ├── items
+│   │   │   ├── chicago_artinstitute.md
+│   │   │   ├── madrid_prado.md
+│   │   │   ├── newyork_metropolitan.md
+│   │   │   ├── paris_louvre.md
+│   │   │   └── roma_borghese.md
+│   │   └── list.md
+│   ├── menu
+│   │   ├── items
+│   │   │   ├── artists.md
+│   │   │   ├── biblio.md
+│   │   │   ├── collections.md
+│   │   │   ├── credits.md
+│   │   │   ├── home.md
+│   │   │   ├── posts.md
+│   │   │   ├── site.md
+│   │   │   ├── tech.md
+│   │   │   └── works.md
+│   │   └── list.md
+│   ├── posts
+│   │   ├── items
+│   │   │   ├── 2019-01-24-ext-001.md
+│   │   │   ├── 2019-01-27-milan-paris.md
+│   │   │   ├── 2019-03-07-MotaisdeNarbonne.md
+│   │   │   └── 2019-12-31-news.md
+│   │   └── list.md
+│   ├── site
+│   │   ├── items
+│   │   │   ├── aide.md
+│   │   │   ├── annotation.md
+│   │   │   ├── colaboration.md
+│   │   │   └── recherche.md
+│   │   └── list.md
+│   ├── tech
+│   │   ├── items
+│   │   │   └── 2019-01-23-conception.md
+│   │   └── list.md
+│   ├── works
+│   │   ├── items
+│   │   │   ├── 1488_vecelli_paris_louvre_1515_femme_miroir.md
+│   │   │   ├── 1571_merisi_roma_borghese_1606_sgirolamo.md
+│   │   │   ├── 1571_merisi_roma_borghese_1610_sgiovanni.md
+│   │   │   ├── 1594_poussin_chicago_artinstitute_1640_landscape.md
+│   │   │   ├── 1594_poussin_losangeles_getty_1650_landscape.md
+│   │   │   ├── 1594_poussin_madrid_prado_1642_paisaje_P002308.md
+│   │   │   ├── 1594_poussin_madrid_prado_1648_paisaje_P002310.md
+│   │   │   ├── 1697_canal_newyork_metropolitan_1740_salute_5938.md
+│   │   │   └── 1703_boucher_princeton_university_1748_arion.md
+│   │   └── list.md
+│   ├── 404.md
+│   └── index.md
+├── data
+│   ├── artists
+│   │   ├── 1488_vecelli.js
+│   │   ├── 1571_merisi.js
+│   │   ├── 1594_poussin.js
+│   │   ├── 1697_canal.js
+│   │   └── 1703_boucher.js
+│   ├── biblio
+│   │   ├── 2007_rosenberg.js
+│   │   └── 2017_scaletti_caravaggio.js
+│   ├── collectors
+│   │   ├── chicago_artinstitute.js
+│   │   ├── losangeles_getty.js
+│   │   ├── madrid_prado.js
+│   │   ├── newyork_metropolitan.js
+│   │   ├── paris_louvre.js
+│   │   ├── princeton_university.js
+│   │   ├── roma_borghese.js
+│   │   └── roma_corsini.js
+│   ├── posts
+│   ├── UI
+│   │   └── framings.js
+│   ├── works
+│   │   ├── 1488_vecelli_paris_louvre_1515_femme_miroir.js
+│   │   ├── 1571_merisi_roma_borghese_1606_sgirolamo.js
+│   │   ├── 1571_merisi_roma_borghese_1610_sgiovanni.js
+│   │   ├── 1571_merisi_roma_corsini_1604_sgiovanni.js
+│   │   ├── 1594_poussin_chicago_artinstitute_1640_landscape.js
+│   │   ├── 1594_poussin_losangeles_getty_1650_landscape.js
+│   │   ├── 1594_poussin_madrid_prado_1642_paisaje_P002308.js
+│   │   ├── 1594_poussin_madrid_prado_1648_paisaje_P002310.js
+│   │   ├── 1697_canal_newyork_metropolitan_1740_salute_5938.js
+│   │   └── 1703_boucher_princeton_university_1748_arion.js
+│   └── settings.json
+├── includes
+│   ├── content
+│   │   ├── _attributes_.md
+│   │   ├── _deflist_.md
+│   │   ├── _part_.md
+│   │   └── _subpart_.md
+│   └── layouts
+│       ├── 404
+│       │   ├── _404_scripts_.njk
+│       │   ├── _in_image_.njk
+│       │   └── item.njk
+│       ├── artist
+│       │   ├── _header_.njk
+│       │   ├── _in_img_.njk
+│       │   └── list.njk
+│       ├── biblio
+│       │   ├── _header_.njk
+│       │   └── list.njk
+│       ├── collector
+│       │   ├── _header_.njk
+│       │   ├── _in_img_.njk
+│       │   └── list.njk
+│       ├── home
+│       │   ├── _home_scripts_.njk
+│       │   ├── _in_image_.njk
+│       │   └── item.njk
+│       ├── menu
+│       │   ├── _list_.njk
+│       │   └── list.njk
+│       ├── partials
+│       │   ├── addons
+│       │   │   ├── _annotation_.njk
+│       │   │   ├── _annotation_analytics_.njk
+│       │   │   ├── _fonts_.njk
+│       │   │   ├── _instant_page_.njk
+│       │   │   └── _script_load_.njk
+│       │   ├── blocks
+│       │   │   ├── _area_gallery_.njk
+│       │   │   ├── _area_text_.njk
+│       │   │   ├── _fonts_.njk
+│       │   │   ├── _head_.njk
+│       │   │   ├── _scripts_.njk
+│       │   │   ├── _scrollbar_.njk
+│       │   │   └── _styles_.njk
+│       │   ├── _bg_image_.njk
+│       │   ├── _bg_image_script_.njk
+│       │   ├── _fold_items_.njk
+│       │   ├── _fold_items_list_.njk
+│       │   ├── _fold_txt_close_.njk
+│       │   ├── _fold_txt_open_.njk
+│       │   ├── _in_image_.njk
+│       │   ├── _in_legend_.njk
+│       │   ├── _in_text_.njk
+│       │   ├── _item_.njk
+│       │   ├── _list_.njk
+│       │   ├── _LOG_.njk
+│       │   ├── _root_vars_.njk
+│       │   ├── _svg_menu_.njk
+│       │   └── _work_img_legend_.njk
+│       ├── post
+│       │   ├── _header_.njk
+│       │   ├── _in_img_.njk
+│       │   ├── _post_list_.njk
+│       │   ├── item.njk
+│       │   └── list.njk
+│       ├── site
+│       │   └── list.njk
+│       ├── static
+│       │   ├── scripts
+│       │   │   ├── img_process.js
+│       │   │   ├── main.js
+│       │   │   ├── media.js
+│       │   │   ├── script_load.js
+│       │   │   └── svg.min.js
+│       │   └── styles
+│       │       ├── areas.css
+│       │       ├── colors.css
+│       │       ├── contact.css
+│       │       ├── folder.css
+│       │       ├── gallery.css
+│       │       ├── gradients.css
+│       │       ├── home.css
+│       │       ├── html-remedy.css
+│       │       ├── html.css
+│       │       ├── img_bg.css
+│       │       ├── img_list.css
+│       │       ├── layout.css
+│       │       ├── media_1.css
+│       │       ├── media_2.css
+│       │       ├── media_3.css
+│       │       ├── media_4.css
+│       │       ├── media.css
+│       │       ├── palette.css
+│       │       ├── root.css
+│       │       ├── screen.css
+│       │       ├── scrollbar.css
+│       │       ├── svg.css
+│       │       ├── text_item.css
+│       │       ├── text_list.css
+│       │       └── TODO_hsl.css
+│       ├── tech
+│       │   └── list.njk
+│       ├── work
+│       │   ├── blocks
+│       │   │   ├── _media_.njk
+│       │   │   └── _styles_.njk
+│       │   ├── _header_.njk
+│       │   ├── _in_img_.njk
+│       │   ├── _item_.njk
+│       │   ├── _media_.njk
+│       │   ├── _media_1_control_.njk
+│       │   ├── _media_1_processor_.njk
+│       │   ├── _media_2_control_.njk
+│       │   ├── _media_2_processor_.njk
+│       │   ├── _media_3_control_.njk
+│       │   ├── _media_3_processor_.njk
+│       │   ├── _media_4_control_.njk
+│       │   ├── _media_4_processor_.njk
+│       │   ├── _media_5_control_.njk
+│       │   ├── _media_5_processor_.njk
+│       │   ├── _media_scripts_.njk
+│       │   └── list.njk
+│       └── base.njk
+├── static
+│   ├── fonts
+│   │   ├── antic-v10-latin-regular.woff2
+│   │   ├── josefin-slab-v9-latin-regular.woff2
+│   │   ├── Philosopher-Bold.woff2
+│   │   ├── Philosopher-BoldItalic.woff2
+│   │   ├── Philosopher-Italic.woff2
+│   │   ├── Philosopher-Regular.woff2
+│   │   ├── philosopher-v10-latin-700.woff2
+│   │   ├── philosopher-v10-latin-italic.woff2
+│   │   ├── philosopher-v10-latin-regular.woff2
+│   │   ├── RenoMono.woff2
+│   │   ├── titillium-web-v7-latin-200.woff2
+│   │   ├── titillium-web-v7-latin-300.woff2
+│   │   ├── titillium-web-v7-latin-600.woff2
+│   │   ├── titillium-web-v7-latin-700.woff2
+│   │   └── titillium-web-v7-latin-regular.woff2
+│   ├── icons
+│   │   ├── adupin-mail.svg
+│   │   ├── elipsis-h.svg
+│   │   ├── elipsis-v.svg
+│   │   ├── external-link.svg
+│   │   ├── film.svg
+│   │   ├── loader.svg
+│   │   ├── menu-h.svg
+│   │   ├── menu-v.svg
+│   │   ├── pause.svg
+│   │   └── play.svg
+│   ├── media
+│   │   ├── images
+│   │   │   ├── 1488_vecelli_paris_louvre_1515_femme_miroir-@400.jpg
+│   │   │   ├── 1488_vecelli_paris_louvre_1515_femme_miroir.jpg
+│   │   │   ├── 1560_carracci_roma_farnese_1600_bacchus-@400.jpg
+│   │   │   ├── 1560_carracci_roma_farnese_1600_trionfo.jpg
+│   │   │   ├── 1571_merisi_kansascity_museum_1604_sangiovanni-@400.jpg
+│   │   │   ├── 1571_merisi_kansascity_museum_1604_sangiovanni.jpg
+│   │   │   ├── 1571_merisi_roma_borghese_1606_sgirolamo-@400.jpg
+│   │   │   ├── 1571_merisi_roma_borghese_1606_sgirolamo.jpg
+│   │   │   ├── 1571_merisi_roma_borghese_1610_sgiovanni-@400.jpg
+│   │   │   ├── 1571_merisi_roma_borghese_1610_sgiovanni.jpg
+│   │   │   ├── 1571_merisi_roma_corsini_1604_sgiovanni-@400.jpg
+│   │   │   ├── 1571_merisi_roma_corsini_1604_sgiovanni.jpg
+│   │   │   ├── 1571_merisi_x_privee_1609_maddalena-@400.jpg
+│   │   │   ├── 1594_poussin_chicago_artinstitute_1640_landscape-@400.jpg
+│   │   │   ├── 1594_poussin_chicago_artinstitute_1640_landscape.jpg
+│   │   │   ├── 1594_poussin_losangeles_getty_1650_landscape-@400.jpg
+│   │   │   ├── 1594_poussin_losangeles_getty_1650_landscape.jpg
+│   │   │   ├── 1594_poussin_madrid_prado_1642_paisaje_P002308-@400.jpg
+│   │   │   ├── 1594_poussin_madrid_prado_1642_paisaje_P002308.jpg
+│   │   │   ├── 1594_poussin_madrid_prado_1648_paisaje_P002310-@400.jpg
+│   │   │   ├── 1594_poussin_madrid_prado_1648_paisaje_P002310.jpg
+│   │   │   ├── 1697_canal_newyork_metropolitan_1740_salute_5938-@400.jpg
+│   │   │   ├── 1697_canal_newyork_metropolitan_1740_salute_5938.jpg
+│   │   │   ├── 1697_canal_toledo_museum_1735_schiavoni.jpg
+│   │   │   ├── 1703_boucher_princeton_university_1748_arion-@400.jpg
+│   │   │   ├── 1703_boucher_princeton_university_1748_arion.jpg
+│   │   │   ├── 2019_ca_site_home_2019_screenshot.jpg
+│   │   │   ├── 2019_ca_site_tech_0201_burst-@400.jpg
+│   │   │   ├── Caravaggio_-_La_vocazione_di_San_Matteo.jpg
+│   │   │   ├── Caravaggio_-_Martirio_di_San_Matteo.jpg
+│   │   │   ├── Caravaggio_-_San_Matteo_e_l'angelo.jpg
+│   │   │   ├── gray-gradient.jpg
+│   │   │   ├── home_01_@550.jpg
+│   │   │   ├── home_02_@550.jpg
+│   │   │   ├── home_03_@550.jpg
+│   │   │   ├── home_04_@550.jpg
+│   │   │   ├── home_05_@550.jpg
+│   │   │   ├── home_06_@550.jpg
+│   │   │   ├── home_07_@550.jpg
+│   │   │   ├── home_09_@550.jpg
+│   │   │   ├── home_10_@550.jpg
+│   │   │   ├── home_14_@550.jpg
+│   │   │   ├── home_P.jpg
+│   │   │   ├── home_S.jpg
+│   │   │   ├── ITA_Carracci_G_JPEG_img-01.jpg
+│   │   │   ├── ITA_Carracci_G_JPEG_img-05.jpg
+│   │   │   ├── Munsell_1929_color_solid-1024x1024.webp
+│   │   │   ├── post-writer-@400.jpg
+│   │   │   └── rainbow-gradient.jpg
+│   │   └── videos
+│   └── scripts
+│       └── svg.min.js
+├── tools
+│   ├── _new_biblio_.js
+│   ├── _new_post_.js
+│   ├── _new_work_.js
+│   ├── getDate.js
+│   ├── getWorksByID.js
+│   ├── newEntries.js
+│   └── newPost.js
+├── .eleventy.js
+└── .shortcodes.js
