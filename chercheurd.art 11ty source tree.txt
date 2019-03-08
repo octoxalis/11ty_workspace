@@ -215,7 +215,6 @@
 │       │   │   └── _styles_.njk
 │       │   ├── _header_.njk
 │       │   ├── _in_img_.njk
-│       │   ├── _item_.njk
 │       │   ├── _media_.njk
 │       │   ├── _media_1_control_.njk
 │       │   ├── _media_1_processor_.njk
@@ -228,6 +227,7 @@
 │       │   ├── _media_5_control_.njk
 │       │   ├── _media_5_processor_.njk
 │       │   ├── _media_scripts_.njk
+│       │   ├── item.njk
 │       │   └── list.njk
 │       └── base.njk
 ├── static
